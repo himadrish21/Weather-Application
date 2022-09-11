@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.weather-app{
+    background-image: url(../../image/25501.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-container{
+    background-image: url(../../image/25501.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 700px;
+    margin-top: 90px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 20px;
+}
+
+.error-message{
+    font-size: 40px;
+    margin: 200px auto;
+}
+
+.weather-container #heading{
+    margin-top: 40px;
+}
+
+.weather-container form{
+    position: relative;
+    margin: 30px auto;
+}
+
+.weather-container input{
+    width: 300px;
+    padding: 15px 6px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 120%;
+}
+
+#weather-form button{
+    position: absolute;
+    right: 63px;
+    bottom: 16px;
+}
+
+.weather-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.weather-information h1{
+    font-size: 40px;
+    margin: 15px;
+}
+
+
+
+/* #weather-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} */
+/*
+#weather-form input{
+    padding: 9px 42px;
+    margin-top:30px ;
+    border-radius: 9px;
+    border: none;
+    font-size: 120%;
+
+}
+
+#weather-form button{
+    position: absolute;
+    right: 4px;
+    bottom: 9px;
+} */
